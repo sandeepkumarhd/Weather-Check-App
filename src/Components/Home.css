@@ -1,0 +1,50 @@
+.searchBox {
+  background-image: url(./nature.jpg),
+    linear-gradient(rgb(21, 17, 17, 0.4), rgb(52, 52, 148, 0.5));
+  height: 50vh;
+  background-size: cover;
+  /* margin-top: 10vh; */
+}
+
+.searchBox div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.searchBox div input {
+  width: 30%;
+  margin: 15vh auto 0vh auto;
+  height: 2rem;
+  font-size: 1.6rem;
+  color: aliceblue;
+  background-color: rgb(113, 202, 220);
+  color: rgb(43, 5, 146);
+}
+.searchBox div button {
+  width: 30%;
+  margin: 3vh auto;
+  padding: 0.6rem 2rem;
+  font-size: 1.2rem;
+  background-color: chocolate;
+  cursor: pointer;
+  border: none;
+}
+.searchBox div button:hover {
+  background-color: rgb(26, 6, 157);
+  color: aliceblue;
+}
+.output{
+    text-align: center;
+    border: 2px solid blue;
+    width: 20rem;
+    height: 15rem;
+    margin: auto;
+}
+h2{
+  font-size: 2rem;
+}
+img{
+  height: 80px;
+  width: 80px;
+  border-radius: 20px;
+}
