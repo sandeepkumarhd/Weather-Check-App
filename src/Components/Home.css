@@ -1,50 +1,115 @@
 .searchBox {
-  background-image: url(./nature.jpg),
-    linear-gradient(rgb(21, 17, 17, 0.4), rgb(52, 52, 148, 0.5));
-  height: 50vh;
-  background-size: cover;
-  /* margin-top: 10vh; */
+  height: 32rem;
+  background-color: aqua;
+  width: 35%;
+  margin: 3.4rem auto;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 1rem 0rem black;
 }
-
 .searchBox div {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: aqua;
+  border-radius: 0.5rem;
+  box-shadow: 0rem 0rem 1rem 0rem black;
 }
 .searchBox div input {
-  width: 30%;
-  margin: 15vh auto 0vh auto;
+  width: 50%;
+  margin: 5vh auto 0vh auto;
   height: 2rem;
-  font-size: 1.6rem;
+  font-size: 1rem;
   color: aliceblue;
   background-color: rgb(113, 202, 220);
   color: rgb(43, 5, 146);
+  border-radius: 0.4rem;
 }
 .searchBox div button {
-  width: 30%;
+  width: 50%;
   margin: 3vh auto;
-  padding: 0.6rem 2rem;
-  font-size: 1.2rem;
+  padding: 0.6rem 3rem;
+  font-size: 1rem;
   background-color: chocolate;
   cursor: pointer;
   border: none;
+  color: white;
+  border-radius: 0.2rem;
+  text-align: center;
 }
 .searchBox div button:hover {
   background-color: rgb(26, 6, 157);
   color: aliceblue;
 }
-.output{
-    text-align: center;
-    border: 2px solid blue;
-    width: 20rem;
-    height: 15rem;
-    margin: auto;
+.output {
+  text-align: center;
+  border: 2px solid blue;
+  width: 60%;
+  height: 16.4rem;
+  margin: 2rem auto;
 }
-h2{
+h2 {
   font-size: 2rem;
 }
-img{
+img {
   height: 80px;
   width: 80px;
   border-radius: 20px;
+  margin: auto;
+}
+::placeholder {
+  font-size: 1.3rem;
+  text-align: center;
+  color: rgb(19, 13, 189);
+}
+@media (max-width: 425px) {
+  .searchBox {
+    height: 23rem;
+    background-color: aqua;
+    width: 75%;
+    margin: 3.4rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 1rem 0rem black;
+  }
+  .output {
+    text-align: center;
+    border: 2px solid blue;
+    /* width: 100%; */
+    height: 12.4rem;
+    margin: 1rem auto;
+  }
+  img {
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 20px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .searchBox {
+    height: 27rem;
+    background-color: aqua;
+    width: 75%;
+    margin: 3.4rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 1rem 0rem black;
+  }
+  .output {
+    text-align: center;
+    border: 2px solid blue;
+    width: 60%;
+    height: 15rem;
+    margin: 1.8rem auto;
+  }
+  img {
+    height: 81px;
+    width: 81px;
+    border-radius: 20px;
+    margin: auto;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
 }

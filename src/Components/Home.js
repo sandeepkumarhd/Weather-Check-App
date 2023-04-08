@@ -39,21 +39,21 @@ const Home = () => {
             onChange={cityChangeHander}
             placeholder="Enter City Name"
           />
-          <button onClick={feachWeather}>Search City</button>
+          <button onClick={feachWeather}>Search</button>
         </div>
-      </div>
-      {data && (
-        <div className="output">
-          <div>
-            <h1>{cityName}</h1>
-            <img src={pic1} alt="pic 1" />
-            <h2>
-              {temp}
-              <TbTemperatureCelsius />
-            </h2>
+        {data && (
+          <div className="output">
+            <div>
+              <h1>{cityName}</h1>
+              <img src={pic1} alt="pic 1" />
+              <h2>
+                {temp}
+                <TbTemperatureCelsius />
+              </h2>
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
     </div>
   );
 };
